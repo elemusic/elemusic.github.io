@@ -175,10 +175,21 @@ article {
 			color: rgba(255, 255, 255, 0.6);
 			line-height: 1.5em;
 			margin-bottom: 1em;
+			
+			a {
+				color: rgba(255, 255, 255, 0.6);
+				border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+				padding-bottom: .1em;
+				transition: .2s;
+			}
+			
+			a:hover {
+				color: rgba(255, 255, 255, 0.9);
+				border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+			}
 		}
 		
-		a {
-			margin: 0 auto;
+		#email-link {
 			font-size: .7em;
 			font-weight: 900;
 			opacity: .5;
@@ -186,8 +197,10 @@ article {
 			padding: .5em 1em;
 			background: rgba(0, 0, 0, 0.6);
 			border-radius: .2em;
+			margin-bottom: 1em;
+			display: inline-block;
 		}	
-		a:hover {
+		#email-link:hover {
 			opacity: .9;
 		}
 	
