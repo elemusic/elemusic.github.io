@@ -1,3 +1,5 @@
-- Fill out metadata + image for OG + images for social media
-- Buy domain & hook up
 - Hook up Google Analytics
+
+
+- Replace images on Facebook & Twitter
+- Connect all the links
