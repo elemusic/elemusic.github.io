@@ -1,5 +1,2 @@
-- Hook up Google Analytics
-
-
 - Replace images on Facebook & Twitter
 - Connect all the links
