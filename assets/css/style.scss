@@ -9,18 +9,6 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
-#site-bg {
-	position: fixed;
-	width: 100%;
-	height: 100%;
-	filter: blur(1.5em);
-	-webkit-filter: blur(1.6em);
-	-webkit-transform: scale(1.1);
-	opacity: .7;
-	
-	z-index: -1;
-}
-
 a {
 	text-decoration: none;
 	color: white;
@@ -32,6 +20,10 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	background-color: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+	
 	h1 {
 		font-weight: 900;
 		opacity: .9;
@@ -50,29 +42,45 @@ header {
 			a {
 				font-weight: 900;
 				font-size: .7em;
-				opacity: .5;
+				opacity: .7;
 				transition: .2s;
 				padding: .5em 1em;
 				background: rgba(255, 255, 255, 0.1);
 				border-radius: .2em;
 			}
 			a#active {
-				opacity: .9;
+				opacity: 1;
 			}
 			a:hover {
-				opacity: .9;
+				opacity: 1;
 			}
 		}
 	}
 }
 
+#site-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0; left: 0;
+	filter: blur(1.5em);
+	-webkit-filter: blur(1.6em);
+	-webkit-transform: scale(1.1);
+	opacity: .7;
+	
+	z-index: -1;
+	
+}
+
 article {
+	position: relative;
+	overflow: hidden;
+	min-height: 100vh;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
 	justify-content: center;
-	padding: 2em 1em;
-	min-height: calc(100vh - 4.1em);
+	padding: 6em 1em 2em;
 	#ep-cover {
 		width: 20em;
 		border-radius: .1em;
@@ -91,7 +99,7 @@ article {
 			display: inline-block;
 			margin: .2em;
 			a {
-				width: 6em;
+				width: 7em;
 				height: 2em;
 				border-radius: .2em;
 				background-color: grey;
@@ -132,6 +140,9 @@ article {
 		#dezeer-link a {
 			background-color: rgba(253, 0, 132, 0.7);
 		}
+		#youtube-link a {
+			background-color: rgba(229, 45, 39, 0.7);
+		}
 		#spotify-link a:hover {
 			background-color: rgba(39, 202, 77, 1);
 		}
@@ -146,6 +157,9 @@ article {
 		}
 		#dezeer-link a:hover {
 			background-color: rgba(253, 0, 132, 1);
+		}
+		#youtube-link a:hover {
+			background-color: rgba(229, 45, 39, 1);
 		}
 	}
 	
@@ -229,6 +243,10 @@ article {
 			text-align: center;
 			margin-bottom: .5em;
 		}
+	}
+	
+	article {
+		padding: 7.5em 1em 2em;
 	}
 
 }
