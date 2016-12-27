@@ -87,6 +87,7 @@ article {
 		box-shadow: 0em 1em 2em rgba(0, 0, 0, 0.3);
 		transition: .4s;
 		flex-shrink: 0;
+		border: 1px solid rgba(255, 255, 255, 0.05);
 	}
 	#ep-cover:hover {
 		transform: scale(1.02);
@@ -248,5 +249,4 @@ article {
 	article {
 		padding: 7.5em 1em 2em;
 	}
-
 }

@@ -2,4 +2,6 @@ Hi! My name is Mateusz Dębski.I’ve been a fan of soundtracks and film scor
 
 [Let's talk: matt@soundsbyele.com](mailto:matt@soundsbyele.com)
 
-Cover photo was taken by the talented [illustrator and photographer Ivan Peroni](http://www.ivanperoni.com).
+Cover photo for the Far Away EP was taken by the talented [illustrator and photographer Ivan Peroni](http://www.ivanperoni.com).
+
+Cover photo for the Longing single was taken by the talented [photographer Michał Marciniak](http://www.michalmarciniak.pl).
