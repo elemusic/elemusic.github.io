@@ -5,12 +5,12 @@ $(window).scroll(function(){
   });
 
   $(window).scroll(function(){
-      $(".top2").css("opacity", 1 - $(window).scrollTop() / 650);
+      $(".top2").css("opacity", 1 + 0.4 -$(window).scrollTop() / 650);
     });
 
 
     $(window).scroll(function(){
-        $(".top3").css("opacity", 1 - $(window).scrollTop() / 1050);
+        $(".top3").css("opacity", 1 +0,6 - $(window).scrollTop() / 1050);
       });
 
 
