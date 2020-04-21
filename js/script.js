@@ -5,17 +5,17 @@ $(window).scroll(function(){
   });
 
   $(window).scroll(function(){
-      $(".top2").css("opacity", 1 + 0.6 -$(window).scrollTop() / 350);
+      $(".top2").css("opacity", 1 + 0.4 -$(window).scrollTop() / 350);
     });
 
 
     $(window).scroll(function(){
-        $(".top3").css("opacity", 1 + 0.6 - $(window).scrollTop() / 650);
+        $(".top3").css("opacity", 1 + 0.4 - $(window).scrollTop() / 650);
       });
 
 
       $(window).scroll(function(){
-          $(".top4").css("opacity", 1 +0.5- $(window).scrollTop() /1450);
+          $(".top4").css("opacity", 1 +0.3- $(window).scrollTop() /1450);
         });
 /*win.scroll(function(){
   scrollPosition = win.scrollTop();
