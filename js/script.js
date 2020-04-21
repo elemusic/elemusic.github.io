@@ -10,7 +10,7 @@ $(window).scroll(function(){
 
 
     $(window).scroll(function(){
-        $(".top3").css("opacity", 2.3- $(window).scrollTop() / 150);
+        $(".top3").css("opacity", 2.3- $(window).scrollTop() / 550);
       });
 
 
