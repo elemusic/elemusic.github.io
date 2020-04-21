@@ -1,21 +1,21 @@
 
 
 $(window).scroll(function(){
-    $(".top1").css("opacity", 1 - $(window).scrollTop() / 150);
+    $(".top1").css("opacity", 1 - $(window).scrollTop() / 250);
   });
 
   $(window).scroll(function(){
-      $(".top2").css("opacity", 1 - $(window).scrollTop() / 650);
+      $(".top2").css("opacity", 1 - $(window).scrollTop() / 750);
     });
 
 
     $(window).scroll(function(){
-        $(".top3").css("opacity", 1 - $(window).scrollTop() / 750);
+        $(".top3").css("opacity", 1 - $(window).scrollTop() / 950);
       });
 
 
       $(window).scroll(function(){
-          $(".top4").css("opacity", 1 - $(window).scrollTop() /1450);
+          $(".top4").css("opacity", 1 - $(window).scrollTop() /1150);
         });
 /*win.scroll(function(){
   scrollPosition = win.scrollTop();
