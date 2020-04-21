@@ -1,5 +1,5 @@
 
-
+var headerHeight = $('header').outerHeight();
 $(window).scroll(function(){
     $(".top1").css("opacity", 1 - $(window).scrollTop() / 150);
   });
